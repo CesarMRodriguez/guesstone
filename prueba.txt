@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-mira anda el repo
-
-Segunda prueba
-=======
-mira este repo anda del repo
->>>>>>> 499844da8fb88fc6758331a525b7ff872d7d89aa

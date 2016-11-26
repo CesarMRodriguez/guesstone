@@ -22,8 +22,9 @@ If you are running 64-bit Fedora, the command is:
 
 sudo yum install zlib.i686 ncurses-libs.i686 bzip2-libs.i686
 
+3) Bajar la ultima version de VM virtual-box en https://www.virtualbox.org/wiki/Linux_Downloads
 
-3) Bajar genymotion en https://www.genymotion.com/download/. Registrarse antes.
+4) Bajar genymotion en https://www.genymotion.com/download/. Registrarse antes.
 
 poner genymotion.bin en algun directorio donde se quiera instalar.
 
@@ -35,7 +36,7 @@ Una vez ejecutado, entrar en la carpeta genymotion y buscar el bin de genymotion
 
 Ahi ingresar y bajar la maquina virtual que se desee. Hacer la prueba de que ande.
 
-4) Bajar el plugin para android studio de Genymotion
+5) Bajar el plugin para android studio de Genymotion
 
 To install the Genymotion plugin for Android Studio
 
@@ -43,10 +44,10 @@ To install the Genymotion plugin for Android Studio
     Select Plugins and click Browse Repositories.
     Right-click on Genymotion and click Download and install. To see Genymotion plugin icon, display the toolbar by clicking View > Toolbar.
 
-5) Habilitar integracion:
+6) Habilitar integracion:
 
 Ir a Tools > Android > Enable ADB Integration
 
-6) Actualizar Gradle 2.2.2, en cualquier popup que salga en el aplicativo.
+7) Actualizar Gradle 2.2.2, en cualquier popup que salga en el aplicativo.
 
 
