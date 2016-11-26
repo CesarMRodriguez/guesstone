@@ -1,0 +1,52 @@
+1) Descargar Android Studio de:
+- https://developer.android.com/studio/install.html
+
+2) Seguir las siguientes instrucciones para Linux:
+
+o install Android Studio on Linux, proceed as follows:
+
+    Unpack the .zip file you downloaded to an appropriate location for your applications, such as within /usr/local/ for your user profile, or /opt/ for shared users.
+    To launch Android Studio, open a terminal, navigate to the android-studio/bin/ directory, and execute studio.sh.
+    Select whether you want to import previous Android Studio settings or not, then click OK.
+    The Android Studio Setup Wizard guides you though the rest of the setup, which includes downloading Android SDK components that are required for development.
+
+Tip: To make Android Studio available in your list of applications, select Tools > Create Desktop Entry from the Android Studio menu bar.
+
+Required libraries for 64-bit machines:
+
+If you are running a 64-bit version of Ubuntu, you need to install some 32-bit libraries with the following command:
+
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+
+If you are running 64-bit Fedora, the command is:
+
+sudo yum install zlib.i686 ncurses-libs.i686 bzip2-libs.i686
+
+
+3) Bajar genymotion en https://www.genymotion.com/download/. Registrarse antes.
+
+poner genymotion.bin en algun directorio donde se quiera instalar.
+
+Ejecutar: chmod +x genymotion.bin (reemplazar por el nombre correspondiente)
+
+Ejecutar: ./genymotion.bin, y dar OK
+
+Una vez ejecutado, entrar en la carpeta genymotion y buscar el bin de genymotion para ejecutar haciendo dobleclick.
+
+Ahi ingresar y bajar la maquina virtual que se desee. Hacer la prueba de que ande.
+
+4) Bajar el plugin para android studio de Genymotion
+
+To install the Genymotion plugin for Android Studio
+
+    In Android Studio, go to File/Settings (for Windows and Linux) or to Android Studio/Preferences (for Mac OS X)
+    Select Plugins and click Browse Repositories.
+    Right-click on Genymotion and click Download and install. To see Genymotion plugin icon, display the toolbar by clicking View > Toolbar.
+
+5) Habilitar integracion:
+
+Ir a Tools > Android > Enable ADB Integration
+
+6) Actualizar Gradle 2.2.2, en cualquier popup que salga en el aplicativo.
+
+
